@@ -1,0 +1,205 @@
+
+.azeret-mono-primary {
+  font-family: "Azeret Mono", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+/* shared styles */
+.btn{
+  color: rgba(13, 19, 33, 1);
+  font-size: 20px;
+  font-weight: 350;
+  padding: 17px 24px;
+  border: 2px solid rgba(13, 19, 33, 1);
+  background-color: white;
+  border-radius: 5px;
+  
+  
+}
+.learn-more-button{
+  font-size: 16px;
+  font-weight: bold;
+  background: none;
+  border: none;
+  border-bottom: 1px solid black;
+}
+
+.greyish-text{
+  color: rgba(13, 19, 33, 1);
+  font-size: 16px;
+}
+
+  /* nav styles */
+nav{
+  display: flex;
+  justify-content: space-between;
+  }
+.nav-left{
+  font-size: 28px;
+  margin-top: 38px;
+  }
+
+.nav-right{
+  margin-top: 38px;
+  margin-right: 150px;
+}
+
+.nav-button{
+  background-color: black;
+ color: aliceblue;
+}
+.nav-title{
+  font-weight: bolder;
+}
+.nav-pic{
+  background-image: url(../assets/Hero-bg.png);
+  margin-top: 130px;
+  padding-top: 26px;
+  text-align: center;
+
+}
+
+/* Why Web Development?? */
+.top-title{
+  text-align: center;
+}
+
+.web-row{
+  display: flex;
+  margin-top: 48px;
+  padding: 48px;
+  justify-content:space-around;
+  
+  border-radius: 16px;
+  background: linear-gradient(to right, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 40%); ;
+  
+  border: none
+  
+  
+}
+.web-row-mid{
+  display: flex;
+  margin-top: 48px;
+  padding: 48px;
+  justify-content:space-around;
+  
+  border-radius: 16px;
+  background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 40%);
+  
+  border: none
+
+}
+
+.web-section{
+  margin: 74px 148px;
+  padding: 80px 97px;
+  background-color: rgba(13, 19, 33, 0.02);
+}
+.web-description{
+  width: 477px;
+  height: 100px;
+}
+
+/* inspiration styles */
+.inspiration-description{
+  width: 1200px;
+  margin: 0px auto 100px;
+
+
+}
+.inspiration{
+
+  text-align: center;
+}
+.yvideo{
+  border: 1px solid rgba(13, 19, 33, 1);
+  padding: 30px;
+  display: inline-block;
+  border-radius: 10px;
+}
+
+/* current target */
+.columns{
+  display: flex;
+  gap: 24px;
+  margin: 0px 600px;
+}
+
+.current-target-up{
+  width: 1200px;
+  margin: 50px auto ;
+  text-align: center;
+
+}
+
+.current-target-column1{
+  background-color: rgba(255, 76, 30, 0.05);
+  
+}
+
+.current-target-column2{
+  background-color: rgba(0, 76, 232, 0.05);
+}
+.current-target-column3{
+  background-color: rgba(255, 223, 0, 0.05);
+}
+
+/* next target */
+.next-target-up{
+  width: 1200px;
+  text-align: center;
+  margin: 111px auto ;
+}
+
+.rows{
+  display: flex;
+  width: 1140px;
+  height: 219px;
+  
+  margin: 50px auto ;
+  border: 1px solid rgba(13, 19, 33, 1);
+
+}
+.next-target-image{
+  margin-top: 50px;
+  margin-right: 20px;
+  width: 94.78px;
+  height: 108px;
+}
+
+/* footer */
+.need-support{
+  background-image: url(../assets/handshake.jpg);
+  height: 500px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+
+
+}
+.footer-title{
+  font-size: 32px;
+  padding-top: 100px;
+  text-align: center;
+}
+.footer-description{
+  padding-top: 60px;
+  text-align: center;
+}
+
+.suggest{
+  padding: 20px;
+}
+.text-area-align{
+  gap: 10px;
+  display: flex
+  
+}
+
+footer{
+  background-color: rgba(13, 19, 33, 0.03);
+  display: flex;
+  justify-content: space-between;
+}
